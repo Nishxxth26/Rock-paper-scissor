@@ -1,4 +1,3 @@
- HEAD
 let userScore = 0;
 let computerScore = 0;
 let playing = false;
@@ -57,4 +56,5 @@ function startRound(userChoice) {
         status.textContent = result;
         playing = false;
 
-    }, 1500);}
+    }, 1500);
+}
