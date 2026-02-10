@@ -63,3 +63,8 @@ body {
     background: #0ea5e9;
     transform: scale(1.05);
 }
+
+h2{
+   text-shadow:0 0 30px  yellow; 
+   color:#facc15;
+}
