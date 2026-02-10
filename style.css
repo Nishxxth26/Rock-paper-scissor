@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #020617;
     color: white;
@@ -68,3 +69,70 @@ h2{
    text-shadow:0 0 30px  yellow; 
    color:#facc15;
 }
+=======
+body {
+    background: #020617;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.game {
+    width: 360px;
+    margin: auto;
+    padding: 20px;
+    background: #0f172a;
+    border-radius: 18px;
+    box-shadow: 0 0 30px #38bdf8;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.arena {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.hand {
+    font-size: 70px;
+}
+
+.shake {
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+#status {
+    height: 50px;
+    font-size: 18px;
+    color: #facc15;
+}
+
+.choices button {
+    width: 100%;
+    margin: 6px 0;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.choices button:hover {
+    background: #0ea5e9;
+    transform: scale(1.05);
+}
+>>>>>>> 242ac2d811b5f5bfcabe25dfc93da5918052e6c1
